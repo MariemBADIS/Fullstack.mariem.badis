@@ -27,7 +27,7 @@ export const HeroSect = () => {
                 Hi! I&apos;m Mariem Badis,
               </span>
               <span className="font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl flex flex-wrap">
-                A {word === "Developer" ? "Frontend" : "Web"}&nbsp;
+                A {word === "Developer" ? "Full Stack" : "Web"}&nbsp;
                 <motion.span
                   key={word}
                   initial={{ width: 0 }}
@@ -58,7 +58,7 @@ export const HeroSect = () => {
                 transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
                 className="text-[#989898] font-normal text-xs sm:text-[10px] md:text-sm w-full sm:w-[90%] md:w-[70%] leading-relaxed mt-2 sm:mt-1"
               >
-                Hi, I&apos;m Mariem Badis! Senior Frontend Developer with 6+ years building scalable Angular (v14-20) applications. Specialized in NgRx, RxJS, micro-frontend architectures, and frontend performance optimization. Experienced in delivering high-traffic platforms with clean code, accessibility, and automated testing.
+                Senior Full Stack Developer with 6+ years of experience building scalable SaaS and enterprise-grade platforms across frontend and backend layers. Strong expertise in Angular and React ecosystems, combined with backend development in NestJS and Spring Boot. Experienced in micro-frontend and modular architectures, REST APIs, PostgreSQL and MongoDB, and CI/CD pipelines using Docker and GitLab.
               </motion.span>
             </div>
             <div className="buttons w-full flex flex-col sm:flex-row items-start sm:items-center text-white gap-3 text-[10px] tracking-widest mt-6 sm:mt-5 md:mt-5">

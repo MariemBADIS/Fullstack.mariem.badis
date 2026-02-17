@@ -41,15 +41,16 @@ export const AboutMe = () => {
 
   const experiences = [
     {
-      title: "Senior Freelance Frontend Developer",
+      title: "Senior Freelance Fullstack Developer",
       company: "Gazela Technology",
       location: "Tunis, Tunisia",
       period: "02/2025 - Current",
       achievements: [
-        "Architected a modular frontend architecture using Angular and TypeScript, applying SOLID and clean code principles to increase maintainability and SonarQube quality scores by 40%.",
-        "Boosted application performance and Core Web Vitals through efficient rendering, state management, and performance tuning, improving user experience metrics by 35%.",
-        "Integrated secure REST APIs with JWT-based authentication, reducing latency by 40% and strengthening frontend security and reliability.",
-        "Mentored a team of 4 frontend developers, establishing architectural standards and best practices that increased delivery efficiency by 25%."
+        "Architected a full-stack platform using React, NestJS, and PostgreSQL serving 200+ daily users",
+        "Implemented RESTful APIs, JWT authentication, and database schema design",
+        "Optimized Core Web Vitals by 35% and reduced bundle size by 25%",
+        "Established CI/CD pipelines with Docker and GitLab",
+        "Mentored a team of 4 developers and defined coding standards"
       ],
       screenshots: [
         gazelaScreenshot1,
@@ -63,15 +64,16 @@ export const AboutMe = () => {
       projectUrl: "https://nourmariage.com/" // Link for "View Website"
     },
     {
-      title: "Senior Frontend Developer",
+      title: "Full Stack Developer",
       company: "M&C Aero",
       location: "Tunis, Tunisia",
       period: "11/2023 - 01/2025",
       achievements: [
-        "Directed the frontend development of a payment reconciliation platform using Angular, reducing initial load time by 30% and increasing adoption across 200+ enterprise clients.",
-        "Engineered scalable state management with NgRx and RxJS, applying modular design principles to accelerate feature delivery by 20% and reduce maintenance complexity.",
-        "Refined application responsiveness through lazy loading, code splitting, and advanced change detection, increasing overall user satisfaction.",
-        "Established unit and end-to-end testing practices with Jasmine and Karma, reducing regression issues by 25% and strengthening release stability."
+        "Developed a payment reconciliation platform for airline companies",
+        "Built backend services with NestJS and Spring Boot integrated with PostgreSQL and MongoDB",
+        "Designed modular frontend architecture using Angular and NX Monorepo",
+        "Secured APIs with OAuth2 and role-based authorization",
+        "Improved testing coverage and automated deployments via GitLab and Jenkins"
       ],
       screenshots: [
         mncScreenshot1,
@@ -83,15 +85,16 @@ export const AboutMe = () => {
       websiteUrl: "https://mnc.aero/" // Link for company name
     },
     {
-      title: "Frontend Developer",
+      title: "Full Stack Developer",
       company: "Rhis software",
       location: "Tunis, Tunisia",
       period: "07/2019 - 10/2023",
       achievements: [
-        "Spearheaded development of large-scale HR platforms serving 1,400+ organizations, applying scalable frontend architecture and component-based design using Angular to improve performance, reliability, and adoption.",
-        "Constructed reusable UI components and shared libraries, following DRY principles to reduce development time by 20% and ensure consistent user experience.",
-        "Fortified application stability through advanced RxJS patterns, refined state management, and targeted refactoring, enhancing responsiveness at scale.",
-        "Collaborated within Agile teams on code reviews, CI/CD improvements, and UX implementation aligned with accessibility (WCAG) standards."
+        "Led frontend development of SaaS platforms (HR, Payroll, BI) for 1,400+ organizations",
+        "Created micro-frontend architecture to enhance scalability",
+        "Integrated backend APIs and streamlined asynchronous data flows",
+        "Constructed reusable UI libraries aligned with WCAG accessibility standards",
+        "Enhanced performance and maintainability through advanced RxJS patterns"
       ],
       screenshots: [
         rhisScreenshot1,
@@ -113,11 +116,13 @@ export const AboutMe = () => {
       title: "Web developer",
       company: "3d for deco",
       location: "Tunis, Tunisia",
-      period: "05/2018 - 07/2019",
+      period: "05/2018 – 07/2019",
       achievements: [
-        "Developed internal web tools using component-based architecture, streamlining marketing workflows.",
-        "Translated UI/UX designs into responsive, cross-browser interfaces, improving conversion rates by 10% through A/B testing and usability improvements.",
-        "Applied clean coding and maintainability principles, ensuring reliable and scalable web applications for internal teams."
+        "Built e-commerce platforms using Prestashop and Symfony",
+        "Integrated backend modules with MySQL databases",
+        "Translated UI/UX prototypes into responsive interfaces",
+        "Increased conversion rates by 10% through usability improvements",
+        "Collaborated within Agile teams to deliver sprint objectives"
       ],
       screenshots: [
         decoScreenshot1,
@@ -131,9 +136,11 @@ export const AboutMe = () => {
       location: "Tunis, Tunisia",
       period: "11/2015 - 04/2018",
       achievements: [
-        "Delivered a secure, responsive public information portal, applying accessibility standards and improving usability for 20,000+ users.",
-        "Coordinated within Agile teams to develop features, fix bugs, and ensure timely delivery across multiple releases, applying clean code and maintainability principles.",
-        "Implemented consistent responsive interfaces from design mockups, enhancing user experience and engagement."
+        "Delivered municipal web applications and public portals",
+        "Designed responsive interfaces for desktop and mobile platforms",
+        "Implemented CMS-based solutions using Drupal and WordPress",
+        "Resolved production issues and maintained application stability",
+        "Coordinated feature releases within Agile workflows"
       ],
       screenshots: [] // Add screenshots when available
     },
@@ -143,7 +150,11 @@ export const AboutMe = () => {
       location: "Tunis, Tunisia",
       period: "06/2013 - 10/2015",
       achievements: [
-        "Created and maintained responsive web interfaces, integrating accessibility (WCAG) standards across 10+ applications, improving Lighthouse scores by 10 points in close collaboration with designers and developers."
+        "Developed hybrid mobile applications using Ionic and Cordova",
+        "Maintained internal web platforms with PHP and AngularJS",
+        "Configured server environments and application deployments",
+        "Assisted in technical documentation and feature integration",
+        "Supported cross-functional collaboration across development teams"
       ],
       screenshots: [], // Add screenshots when available
       companyLinks: {
