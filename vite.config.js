@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
   // Base path for deploying under a sub-path (e.g. GitHub Pages).
   // Priority: explicit env var -> production default -> root.
   const base =
-    env.VITE_BASE_PATH || (mode === "production" ? "/portfolio.mariem.badis/" : "/");
+    env.VITE_BASE_PATH || (mode === "production" ? "/Fullstack.mariem.badis/" : "/");
 
   return {
     plugins: [react()],
